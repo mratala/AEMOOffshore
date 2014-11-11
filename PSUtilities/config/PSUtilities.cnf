@@ -1,0 +1,10 @@
+allowedWritePaths	 E:\\wM712\\IntegrationServer\\packages\\RhodiaHSBC\\pub\\targz\\*E:\\wM712\\IntegrationServer\\packages\\RhodiaHSBC\\pub\\targz\\tar\\*E:\\wM712\\IntegrationServer\\packages\\RhodiaHSBC\\pub\\targz\\bkp\\*E:\\wM712\\IntegrationServer\\packages\\RhodiaHSBC\\pub\\targz\\tar\\xml\\*E:\\wM712\\IntegrationServer\\packages\\RhodiaHSBC\\pub\\EtpOnLn\\*E:\\wM712\\IntegrationServer\\packages\\RhodiaTEOL\\pub\\TEOL_2\\*E:\\wM712\\tempFiles\\BPROCESS\\extracted\\*E:\\wM712\\tempFiles\\BPROCESS\\compressed\\ *E:\\wM712\\tempFiles\\BPROCESS\\extracted  *E:\\wM712\\tempFiles\\BPROCESS
+
+allowedReadPaths	 E:\\wM712\\IntegrationServer\\packages\\RhodiaHSBC\\pub\\targz\\*E:\\wM712\\IntegrationServer\\packages\\RhodiaHSBC\\pub\\targz\\tar\\*E:\\wM712\\IntegrationServer\\packages\\RhodiaHSBC\\pub\\targz\\bkp\\*E:\\wM712\\IntegrationServer\\packages\\RhodiaHSBC\\pub\\targz\\tar\\xml\\*E:\\wM712\\IntegrationServer\\packages\\RhodiaHSBC\\pub\\EtpOnLn\\*E:\\wM712\\IntegrationServer\\packages\\RhodiaTEOL\\pub\\TEOL_2\\*E:\\wM712\\tempFiles\\BPROCESS\\extracted\\*E:\\wM712\\tempFiles\\BPROCESS\\compressed\\ *E:\\wM712\\tempFiles\\BPROCESS\\extracted  *E:\\wM712\\tempFiles\\BPROCESS
+
+allowedDeletePaths  E:\\wM712\\IntegrationServer\\packages\\RhodiaHSBC\\pub\\targz\\*E:\\wM712\\IntegrationServer\\packages\\RhodiaHSBC\\pub\\targz\\tar\\*E:\\wM712\\IntegrationServer\\packages\\RhodiaHSBC\\pub\\targz\\bkp\\*E:\\wM712\\IntegrationServer\\packages\\RhodiaHSBC\\pub\\targz\\tar\\xml\\*E:\\wM712\\IntegrationServer\\packages\\RhodiaHSBC\\pub\\EtpOnLn\\*E:\\wM712\\IntegrationServer\\packages\\RhodiaTEOL\\pub\\TEOL_2\\*E:\\wM712\\tempFiles\\BPROCESS\\extracted\\*E:\\wM712\\tempFiles\\BPROCESS\\compressed\\ *E:\\wM712\\tempFiles\\BPROCESS\\extracted  *E:\\wM712\\tempFiles\\BPROCESS
+
+allowedCommands	property1*cmd.exe /c dir*property3*
+allowedServices	pub.flow:debugLog*service2
+allowedFromEmails	employee@somecompany.com*test@test.com
+maxSleep	60000

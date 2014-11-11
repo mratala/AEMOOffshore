@@ -1,0 +1,10 @@
+allowedWritePaths	 E:\\WM712\\IntegrationServer\\packages\\RhodiaHSBC\\pub\\targz\\*E:\\WM712\\IntegrationServer\\packages\\RhodiaHSBC\\pub\\targz\\tar\\*E:\\WM712\\IntegrationServer\\packages\\RhodiaHSBC\\pub\\targz\\bkp\\*E:\\WM712\\IntegrationServer\\packages\\RhodiaHSBC\\pub\\targz\\tar\\xml\\*E:\\WM712\\IntegrationServer\\packages\\RhodiaHSBC\\pub\\EtpOnLn\\
+
+allowedReadPaths	 E:\\WM712\\IntegrationServer\\packages\\RhodiaHSBC\\pub\\targz\\*E:\\WM712\\IntegrationServer\\packages\\RhodiaHSBC\\pub\\targz\\tar\\*E:\\WM712\\IntegrationServer\\packages\\RhodiaHSBC\\pub\\targz\\bkp\\*E:\\WM712\\IntegrationServer\\packages\\RhodiaHSBC\\pub\\targz\\tar\\xml\\*E:\\WM712\\IntegrationServer\\packages\\RhodiaHSBC\\pub\\EtpOnLn\\*E:\\wM712\\IntegrationServer\\packages\\RhodiaTEOL\\pub\\TEOL_2\\
+
+allowedDeletePaths  E:\\WM712\\IntegrationServer\\packages\\RhodiaHSBC\\pub\\targz\\*E:\\WM712\\IntegrationServer\\packages\\RhodiaHSBC\\pub\\targz\\tar\\*E:\\WM712\\IntegrationServer\\packages\\RhodiaHSBC\\pub\\targz\\bkp\\*E:\\WM712\\IntegrationServer\\packages\\RhodiaHSBC\\pub\\targz\\tar\\xml\\*E:\\WM712\\IntegrationServer\\packages\\RhodiaHSBC\\pub\\EtpOnLn\\*E:\\wM712\\IntegrationServer\\packages\\RhodiaTEOL\\pub\\TEOL_2\\
+
+allowedCommands	property1*cmd.exe /c dir*property3*
+allowedServices	pub.flow:debugLog*service2
+allowedFromEmails	employee@somecompany.com*test@test.com
+maxSleep	60000

@@ -1,0 +1,10 @@
+allowedWritePaths	 D:\\wM65\\IntegrationServer\\packages\\RhodiaHSBC\\pub\\targz\\*D:\\wM65\\IntegrationServer\\packages\\RhodiaHSBC\\pub\\targz\\tar\\*D:\\wM65\\IntegrationServer\\packages\\RhodiaHSBC\\pub\\targz\\bkp\\*D:\\wM65\\IntegrationServer\\packages\\RhodiaHSBC\\pub\\targz\\tar\\xml\\*D:\\wM65\\IntegrationServer\\packages\\RhodiaHSBC\\pub\\EtpOnLn\\
+
+allowedReadPaths	 D:\\wM65\\IntegrationServer\\packages\\RhodiaHSBC\\pub\\targz\\*D:\\wM65\\IntegrationServer\\packages\\RhodiaHSBC\\pub\\targz\\tar\\*D:\\wM65\\IntegrationServer\\packages\\RhodiaHSBC\\pub\\targz\\bkp\\*D:\\wM65\\IntegrationServer\\packages\\RhodiaHSBC\\pub\\targz\\tar\\xml\\*D:\\wM65\\IntegrationServer\\packages\\RhodiaHSBC\\pub\\EtpOnLn\\
+
+allowedDeletePaths  D:\\wM65\\IntegrationServer\\packages\\RhodiaHSBC\\pub\\targz\\*D:\\wM65\\IntegrationServer\\packages\\RhodiaHSBC\\pub\\targz\\tar\\*D:\\wM65\\IntegrationServer\\packages\\RhodiaHSBC\\pub\\targz\\bkp\\*D:\\wM65\\IntegrationServer\\packages\\RhodiaHSBC\\pub\\targz\\tar\\xml\\*D:\\wM65\\IntegrationServer\\packages\\RhodiaHSBC\\pub\\EtpOnLn\\
+
+allowedCommands	property1*cmd.exe /c dir*property3*
+allowedServices	pub.flow:debugLog*service2
+allowedFromEmails	employee@somecompany.com*test@test.com
+maxSleep	60000
