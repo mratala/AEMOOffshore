@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+  <info organisation="com.softwareag.mom.is.pkg" module="is-pkg-default" revision="9.6.0-v0294" status="integration" publication="20140211193340"/>
+  <configurations>
+    <conf name="archives" visibility="public" description="Configuration for archive artifacts."/>
+    <conf name="compile" visibility="private" description="Partial compile classpath with sub-system scope."/>
+    <conf name="default" visibility="public" extends="runtime,staticRuntime" description="Partial runtime classpath with sub-system scope."/>
+    <conf name="javadocs" visibility="public" description="Configuration for JavaDoc archives."/>
+    <conf name="packages" visibility="public" description="Configuration for Integration Server packages."/>
+    <conf name="providedCompile" visibility="private" description="Partial compile classpath provided by the hosting container."/>
+    <conf name="providedRuntime" visibility="public" extends="providedCompile" description="Partial runtime classpath provided by the hosting container."/>
+    <conf name="runtime" visibility="public" extends="compile" description="Partial runtime classpath with sub-system scope."/>
+    <conf name="sources" visibility="public" description="Configuration for Java source archives."/>
+    <conf name="staticCompile" visibility="private" description="Classpath for compiling the static sources."/>
+    <conf name="staticRuntime" visibility="private" extends="staticCompile" description="Classpath for running the compiled static classes."/>
+    <conf name="testCompile" visibility="private" extends="compile,staticCompile" description="Classpath for compiling the test sources."/>
+    <conf name="testRuntime" visibility="private" extends="testCompile,runtime,staticRuntime" description="Classpath for running the compiled test classes."/>
+  </configurations>
+  <publications>
+    <artifact name="is-pkg-default" type="jar" ext="jar" conf="archives,runtime"/>
+    <artifact name="is-pkg-default" type="javadoc" ext="jar" conf="archives,javadocs" m:classifier="javadoc" xmlns:m="http://ant.apache.org/ivy/maven"/>
+    <artifact name="is-pkg-default" type="source" ext="jar" conf="archives,sources" m:classifier="sources" xmlns:m="http://ant.apache.org/ivy/maven"/>
+    <artifact name="is-pkg-default" type="pkg" ext="zip" conf="archives,packages"/>
+  </publications>
+  <dependencies>
+    <dependency org="com.softwareag.mom.is" name="is-client" rev="9.6.0-v0294" conf="providedCompile-&gt;default" revConstraint="9.6.0-v0294"/>
+    <dependency org="com.softwareag.mom.is" name="is-proxy" rev="9.6.0-v0294" conf="providedCompile-&gt;default" revConstraint="9.6.0-v0294"/>
+    <dependency org="com.softwareag.mom.is" name="is-server" rev="9.6.0-v0294" conf="providedCompile-&gt;default" revConstraint="9.6.0-v0294"/>
+  </dependencies>
+</ivy-module>
