@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">interface</value>
+  <value name="node_nsName">vLog</value>
+  <value name="encodeutf8">true</value>
+  <value name="shared">c3RhdGljIE9iamVjdCBmaWxlTG9jayA9IG5ldyBPYmplY3QoKTsKc3RhdGljIGZpbmFsIERhdGVG
+b3JtYXQgZGYgPSBuZXcgU2ltcGxlRGF0ZUZvcm1hdCgiZGQtTU0teXl5eSBISDptbTpzcy5TU1Mg
+LSAiKTsKc3RhdGljIGZpbmFsIGJ5dGVbXSBPUEVOU1FVQVJFID0gIlsiLmdldEJ5dGVzKCk7CnN0
+YXRpYyBmaW5hbCBieXRlW10gQ0xPU0VTUVVBUkUgPSAiXSAiLmdldEJ5dGVzKCk7CnN0YXRpYyBm
+aW5hbCBieXRlW10gTkVXTElORSA9ICJcbiIuZ2V0Qnl0ZXMoKTsKc3RhdGljIE91dHB1dFN0cmVh
+bSBvczsKc3RhdGljIHsKCW9wZW4oKTsKfQpwcml2YXRlIHN0YXRpYyB2b2lkIG9wZW4oKSB7CnRy
+eSB7CglvcyA9IG5ldyBCdWZmZXJlZE91dHB1dFN0cmVhbShuZXcgRmlsZU91dHB1dFN0cmVhbSgi
+bG9ncy92bG9nLmxvZyIsIHRydWUpKTsKfSBjYXRjaCAoSU9FeGNlcHRpb24gaW9leCkgewoJb3Mg
+PSBudWxsOwp9Cn0K</value>
+  <value name="extends"></value>
+  <array name="implements" type="value" depth="1">
+  </array>
+  <array name="imports" type="value" depth="1">
+    <value>java.io.*</value>
+    <value>java.text.DateFormat</value>
+    <value>java.text.SimpleDateFormat</value>
+    <value>java.util.Date</value>
+    <value>com.wm.lang.ns.NSService</value>
+  </array>
+</Values>
