@@ -1,0 +1,176 @@
+  =========================================================================
+   webMethods Analyze - webMethods Integration Server source code analysis
+  =========================================================================
+
+  Version 2.2.3
+  
+  This tool will analyze the webMethods IS source code and report on complexity,
+  compatibility and quality.
+  
+  The programs are provided as is without any guarantees or warranty.
+  Although the author has attempted to find and correct any bugs in this software, 
+  the author is NOT responsible for any damage or losses of any kind caused by the 
+  use or misuse of the program. The author is under NO obligation to provide 
+  support, service, corrections, or upgrades to the free software programs.
+  
+  This software is copyrighted by Software AG Global Consulting Services and
+  usage by others is not allowed without prior written consent.
+  If the results of your analysis are incomplete, please consult the program's
+  log output and verify it does not mention EVALUATION mode. In EVALUATION mode
+  the program will only generate asset summaries and excludes dependencies
+  and issue lists.
+  
+  Christian Schuit, Software AG, 2010
+  
+  ---------------------------------------
+   Important - Instruction for execution
+  ---------------------------------------
+  
+  To install:
+  1. Unzip WmAnalyzer*.zip into an empty directory. It will create the following
+     structure:
+     
+     |-- db (dir)
+     |   |-- wmanalyzer.tmp (empty dir)
+     |   |-- wmanalyzer.properties (file)
+     |   |-- wmanalyzer.script (file)
+     |
+     |-- template (dir)
+     |   |-- project.mpp (file) 
+     |   |-- report.xls (file)
+     |
+     |-- help.txt (file)
+     |-- log4j.properties (file)
+     |-- project.properties (file)
+     |-- start_analyzer.bat (file)
+     |-- start_analyzer.sh (file)
+     |-- wmanalyzer.jar (file)
+     |-- db-clean.zip (file)
+     |-- clean_hsqldb.sh (file)
+
+  2. Copy all package directories or package archives to a temporary location.
+     You do not have to extract the archived packages. You can assign multiple
+     package directories.
+  3. Edit the project.properties file to configure the runtime (see below). 
+  4. Start the analyzer using the start_analyzer script. Please read the log 
+     output before closing the command prompt window.
+     The database is started automatically within the application.
+  5. In the report directory, the output is placed in an Excel workbook.
+     Note: when you open the report for the first time, it may take a few
+           moments to complete all calculations and update all cells.
+  6. In the template directory, you'll find a sample project plan. You can use
+     the values of the first sheet of the workbook to fill the GREEN fields
+  
+  Do NOT run the analysis directly onto the original source code!
+  
+  -------------------------------------
+   Command-line options for WmAnalyzer
+  -------------------------------------
+
+  Switches - usage: --switch
+  
+  --key       Verify installation components and keys
+  --help      Shows this information
+  
+  Options - usage: --option=value
+  
+  --project	  The name of an alternative properties file. The extension 
+              '.properties' should NOT be included.
+
+  NOTE: All other options and switched have been deprecated. Please use the
+  properties file to set these.
+
+  -------
+   Notes
+  -------
+  - Default values are set in the project.properties file
+  - When providing values with spaces in them as command line arguments, 
+    please enclose with double quotes.
+  - All paths should use Unix notation (../some/path), regardless the platform.
+  - Flags for modification of logging behavior are set in log4j.properties
+
+  ------------
+   Components
+  ------------
+
+  The following components have been used in creating and running this program:
+  - HSQLDB ~ a fast Java in-memory database
+  - Hibernate ~ a database abstraction layer
+  - Eclipse ~ a Java development environment 
+  
+  -------------
+   Unsupported
+  -------------
+
+  At this time, these assets are NOT supported by this program:
+  - .NET services
+  - Jar libraries
+  
+  In future releases these may be included.
+  
+  ---------------------------------------
+   Change history
+  ---------------------------------------
+
+  Changes in 2.2.3 (12-Jan-2011)
+  - Extended deprecation list
+  - Fixed bug in connection analysis (Java exception)
+  - Updated template report
+  - Added source code to Labcase
+
+  Changes in 2.2.2 (20-Dec-2010)
+  - Fixes in template report
+  - Extended deprecation list
+
+  Changes in 2.2.1 (29-Jun-2010)
+  - Database runs within the application. No separate startup.
+
+  Changes in 2.2.0 (25-Jun-2010)
+  - Added job listing for different package dirs/servers
+  - Fixes in report
+  - Performance improvements
+
+  Fixes in 2.1.0 (16-Jun-2010):
+  - Added flat file dictionary and schema
+  - Added web services
+  - Reduced database IO interactions
+  - Minor fixes
+
+  Fixes in 2.0.4 (12-May-2010):
+  - Revision of estimate calculations in Excel
+  - Added '--key' flag to validate installation and security
+  - Added numbering of packages in analyzer output to see progress
+  - Added 'ignore' flag for calculations in Excel sheet
+  - Solved security issues
+  
+  Fixes in 2.0.3 (11-May-2010):
+  - Calculation fixes in Excel report
+
+  Fixes in 2.0.2 (10-May-2010):
+  - Improved package version verification
+  - Added list of unsupported assets to report
+  - Securing and obfuscation of source code
+  - Some minor fixes
+
+  -------------
+   Information
+  -------------
+  
+  For further information on this tool, please contact:
+  
+  Christian Schuit
+  christian.schuit@softwareag.com
+  Software AG Netherlands
+  
+  -------------
+   Credits
+  -------------
+  
+  With thanks to the following individuals for their valuable feedback:
+  - Anant Alok, SAG India
+  - Andreas Magiers, SAG Germany
+  - Harald Meyer, SAG Germany
+  - Marco Goerg, SAG Germany
+  - Henning Waack, SAG Germany
+  - Simon Turowski, SAG France
+ 
